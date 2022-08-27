@@ -1,0 +1,21 @@
+{ATENÇÃO: Esta rotina ainda está em desenvolvimento.
+          O código gerado pode apresentar incorreções sintáticas. }
+program DiasEIdade;
+uses Crt;
+// { Disciplina   : [Linguagem e Lógica de Programação]}
+// { Professor   : Antonio Carlos Nicolodi}
+// { Descrição   : Aqui você descreve o que o programa faz! (função)}
+// { Autor(a)    : Nome do(a) aluno(a)}
+// { Data atual  : 8/27/2022}
+Var
+// { Seção de Declarações das variáveis}
+idade,dias: integer;
+
+begin
+   // { Seção de Comandos, procedimento, funções, operadores, etc...}
+   writeln('Qual a sua idade?');
+   readln(idade);
+   dias := idade*365;
+   writeln('Você viveu por ',dias,' dias');
+
+end.
